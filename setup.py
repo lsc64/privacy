@@ -37,14 +37,13 @@ setuptools.setup(
     install_requires=[
         'absl-py>=1.0,==1.*',
         'dm-tree==0.1.8',
-        'dp-accounting==0.4.3',
+        'dp-accounting==0.4.4',
         'numpy~=1.21',
         'packaging~=22.0',
         'scikit-learn>=1.0,==1.*',
         'scipy~=1.9',
-        'tensorflow-estimator~=2.4',
+        'tensorflow>=2.4.0,<=2.15.0',
         'tensorflow-probability~=0.22.0',
-        'tensorflow~=2.4',
     ],
     python_requires='>=3.9.0,<3.12',
 )
